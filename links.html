@@ -8,7 +8,7 @@
     />
     <meta name="theme-color" content="#000000" />
     <link href="https://ui.decentraland.org/styles.css" rel="stylesheet" />
-    <title>Decentraland - Contract Links</title>
+    <title>Bearland - Contract Links</title>
     <style>
       html {
         margin: 20px;
@@ -43,7 +43,7 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <h1>Decentraland - Contract Links</h1>
+    <h1>Bearland - Contract Links</h1>
     <div id="app"></div>
 
     <script>
@@ -71,7 +71,7 @@
 
       async function fetchContractLinks() {
         const res = await fetch(
-          'https://contracts.decentraland.org/addresses.json'
+          'https://contracts.bears.finance/addresses.json'
         )
         const contracts = await res.json()
         Object.keys(contracts).map(net => {
